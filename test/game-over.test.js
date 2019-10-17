@@ -1,6 +1,6 @@
-import gameOver from '/common/game-over.js';
+import gameOver from '../common/game-over.js';
 const test = QUnit.test;
-QUnit.module('game is over');
+QUnit.module('find by id');
 test('true', function(assert) {
     const ally = {
         wp: 0
