@@ -32,3 +32,7 @@
   input[type=text] {
     background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet)
   }
+  button {
+    margin: 50px;
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  }
