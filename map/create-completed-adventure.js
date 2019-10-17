@@ -1,13 +1,13 @@
-function hasCompletedAllAdvneture(advneture, ally) {
-    
-    for (let i = 0; i < advneture.length; i++) {
-        const adventure = advneture[i];
-       
-        if (!ally.completed[adventure.id]) {
-            return false;
-        }
-    }
-    return true;
+function createCompletedAdventure(adventure) {
+    const span = document.createElement('span');
+    span.classList.add('adventure');
+    span.classList.add('completed');
+
+    span.style.top = adventure.map.top;
+    span.style.left = adventure.map.left;
+
+    span.textContent = adventure.title;
+    return span;
 }
 
-export default hasCompletedAllAdvneture;
+export default createCompletedAdventure;
