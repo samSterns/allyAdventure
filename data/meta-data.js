@@ -1,4 +1,4 @@
-// const quest = [misogyny, gender, racism], 
+const quest = [misogyny, gender, racism],
 
 const misogyny = {
     id: 'misogyny',
@@ -73,8 +73,8 @@ const racism = {
     id: 'racism',
     title: 'Racism',
     map: {
-        top: '31%',
-        left: '5%'
+        top: '5%',
+        left: '20%'
     },
     image: '.png',
     audio: '.wav',
