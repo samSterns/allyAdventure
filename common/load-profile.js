@@ -1,23 +1,23 @@
-import { getUser } from '../data/api.js';
+import { getAlly } from '../data/save-ally.js';
 import gameOver from './game-over.js';
 function loadProfile() {
     const name = document.getElementById('name');
     const avatar = document.getElementById('avatar');
     const wp = document.getElementById('wp');
     const sc = document.getElementById('sc');
-    const user = getUser();
+    const ally = getAlly();
 
-    if (!user) {
-        window.location = '../index.html';
-    }
-    name.textContent = user.name;
-    avatar.src = '../assets/avatars/' + user.race + '.png';
-    sc.textContent = user.sc;
-    if (gameOver(user)) {
+    // if (!ally) {
+    //     window.location = '../index.html';
+    // }
+    name.textContent = ally.name;
+    avatar.src = '../assets/avatars/' + ally.animal + '.png';
+    sc.textContent = ally.sc;
+    if (gameOver(ally)) {
         wp.textContent = 'Better Try Again, my friend';
     }
     else {
-        wp.textContent = user.wp;
+        wp.textContent = ally.wp;
     }
 }
 export default loadProfile; 

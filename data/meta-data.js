@@ -101,4 +101,4 @@ const racism = {
     }]
 };
 
-export const adventure = [misogyny, gender, racism];
+export const adventureArray = [misogyny, gender, racism];
