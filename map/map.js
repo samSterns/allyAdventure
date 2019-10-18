@@ -11,7 +11,7 @@ loadProfile();
 const ally = getAlly();
 
 if (gameOver(ally) || hasCompletedAllAdventures(adventureArray, ally)) {
-    window.location = '../results';
+    window.location = '/results/index.html';
 }
 
 const nav = document.getElementById('adventures'); 
