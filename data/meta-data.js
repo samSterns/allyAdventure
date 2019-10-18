@@ -1,5 +1,3 @@
-const adventure = [misogyny, gender, racism],
-
 const misogyny = {
     id: 'misogyny',
     title: 'Sexism',
@@ -103,4 +101,4 @@ const racism = {
     }]
 };
 
-export default adventure;
+export const adventure = [misogyny, gender, racism];

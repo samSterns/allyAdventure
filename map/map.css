@@ -1,9 +1,30 @@
 * {
-    text-align: center;
-    font-size: 1.2rem;
-    color: rgb(133, 75, 75);
-    text-transform: capitalize;
-  }
-  html {
-    background: cream;
-  }
+  text-align: center;
+  font-size: 1.2rem;
+  color: cornsilk;
+  text-transform: capitalize;
+}
+
+header {
+  padding-bottom: 40px;
+}
+/* html {
+  background: black;
+} */
+/* #adventure {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background: black;
+  } */
+
+fieldset {
+  background: cyan;
+}
+
+legend {
+  padding-bottom: 50px;
+  font-size: 2rem;
+}

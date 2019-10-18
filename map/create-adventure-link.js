@@ -10,5 +10,4 @@ function createAdventureLink(adventure) {
 
     return link;
 }
-
 export default createAdventureLink;

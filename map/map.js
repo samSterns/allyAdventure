@@ -5,7 +5,6 @@ import createAdventureLink from './create-adventure-link.js';
 import createCompletedAdventure from './create-completed-adventure.js';
 import hasCompletedAllAdventures from './has-completed-all-adventures.js';
 import gameOver from '../common/game-over.js';
-import adventure from '../data/meta-data.js';
 
 loadProfile();
 

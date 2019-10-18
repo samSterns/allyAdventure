@@ -1,4 +1,4 @@
-unction hasCompletedAllAdventures(adventure, ally) {
+function hasCompletedAllAdventures(adventure, ally) {
     for (let i = 0; i < adventure.length; i++) {
         const adventure = adventure[i];
         if (!ally.completed[adventure.id]) {
@@ -6,5 +6,5 @@ unction hasCompletedAllAdventures(adventure, ally) {
         }
     }
     return true;
-  }
-  export default hasCompletedAllAdventures;
+}
+export default hasCompletedAllAdventures;

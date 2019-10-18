@@ -6,8 +6,9 @@ function loadProfile() {
     const wp = document.getElementById('wp');
     const sc = document.getElementById('sc');
     const user = getUser();
+
     if (!user) {
-        window.location = './index.html';
+        window.location = '../index.html';
     }
     name.textContent = user.name;
     avatar.src = '../assets/avatars/' + user.race + '.png';
