@@ -11,7 +11,7 @@ test('creates correct html', (assert) => {
             left: '44%'
         }
     };
-    const expected = '<a class="adventure" href="./adventure/?id=misogyny" style="top: 89%; left: 44%;">Sexism</a>';
+    const expected = '<a class="adventure-display" href="../adventure/index.html?id=misogyny" style="top: 89%; left: 44%;">Sexism</a>';
 
     const dom = createAdventureLink(adventure);
  

@@ -11,5 +11,3 @@ function createAdventureLink(adventure) {
     return link;
 }
 export default createAdventureLink;
-
-// passs in single adventure passin array of adventure objects in the for lop call each function
