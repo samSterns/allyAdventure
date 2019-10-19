@@ -1,0 +1,22 @@
+* {
+  text-align: center;
+  font-size: 1.2rem;
+  color:orange;
+  text-transform: capitalize;
+  background: black;
+}
+
+header {
+  padding-bottom: 40px;
+}
+
+fieldset {
+  background: cyan;
+  height:500px;
+  padding: 100px;
+}
+
+legend {
+  padding-bottom: 50px;
+  font-size: 2rem;
+}
