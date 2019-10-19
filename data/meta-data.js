@@ -5,9 +5,7 @@ const misogyny = {
         top: '89%',
         left: '44%'
     },
-    image: '../asset/advatar/misogyny.png',
-    audio: '.wav',
-    action: '.wav',
+    image: '../asset/misogyny.png',
     description: `
         You enter the quest chamber only to be confronted by a male colleague who is explaining something you are actually an expert in. What do you do?`,
     choices: [{
@@ -41,9 +39,7 @@ const gender = {
         top: '31%',
         left: '5%'
     },
-    image: '../asset/advatar/gender.png',
-    audio: '.wav',
-    action: '.wav',
+    image: '../asset/gender.jpg',
     description: `
         You are working on a project, and while speaking to your gender nonconforming co-worker you use the wron pronoun. What do you do?
     `,
@@ -74,9 +70,7 @@ const racism = {
         top: '5%',
         left: '20%'
     },
-    image: '../asset/advatar/racism.png',
-    audio: '.wav',
-    action: '.wav',
+    image: '../asset/racism.png',
     description: `
         You are the hiring manager at a large tech company. You are looking for a new employee to fit into one of your engineering teams. You want more diversity on your team. What do you do?
     `,
@@ -101,4 +95,4 @@ const racism = {
     }]
 };
 
-export const adventureArray = [misogyny, gender, racism];
+export const adventures = [misogyny, gender, racism];

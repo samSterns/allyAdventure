@@ -1,6 +1,6 @@
 function createAdventureLink(adventure) {
     const link = document.createElement('a');
-    link.classList.add('adventure');
+    link.classList.add('adventure-display');
 
     link.href = '../adventure/index.html?id=' + adventure.id;
 

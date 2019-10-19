@@ -1,27 +1,19 @@
 * {
   text-align: center;
   font-size: 1.2rem;
-  color: cornsilk;
+  color:orange;
   text-transform: capitalize;
+  background: black;
 }
 
 header {
   padding-bottom: 40px;
 }
-/* html {
-  background: black;
-} */
-/* #adventure {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  padding: 0 20px;
-  background: black;
-  } */
 
 fieldset {
   background: cyan;
+  height:500px;
+  padding: 100px;
 }
 
 legend {

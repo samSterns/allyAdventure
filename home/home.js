@@ -1,4 +1,4 @@
-import { saveAlly } from '../data/saveAlly.js';
+import { saveAlly } from '../data/save-ally.js';
 import { makeAlly } from './make-ally.js';
 const allySignIn = document.getElementById('ally-sign-in');
 allySignIn.addEventListener('submit', function(event) {
